@@ -12,16 +12,16 @@
 </head>
 <body>
     <h1>My To-Do List</h1>
-    <form>
+    <form onsubmit="return false">
         <textarea placeholder="Enter To-Do..."></textarea>
-        <button>
+        <button id="addBtn">
             <p>Add To-Do</p>
         </button>
     </form>
     <section>
         <h4>Current To-Do's...</h4>
         <div class="todoContainer">
-            <div class="todo">
+            <!-- <div class="todo">
                 <p>I must complete this before the end of the day!</p>
                 <div class="btnContainer">
                     <button class="iconBtn1">
@@ -31,8 +31,9 @@
                         <i class="fa-solid fa-trash"></i>
                     </button>
                 </div>
-            </div>
+            </div> -->
         </div>
     </section>
 </body>
+<script src="index.js"></script>
 </html>
