@@ -2,7 +2,8 @@
 
 ## Learning Exercises
 
-Comprised of the following: 
+### Comprised of the following: 
 
 Google homepage recreation (html + css)
 Responsive Calculator Web App (html + css + js)
+Responsive To-Do Web App (html + css + js)
